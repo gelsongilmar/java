@@ -6,18 +6,10 @@ A pasta lambda possui exemplos de uso de lambdas com java. Uma demostração de 
 
 ### Sem lambda
 
-'''
-
         for(Usuario u: usuarios) {
             System.out.println(u.getNome());
         }
 
-'''
-
 ### Com lambda
 
-'''
-
         usuarios.forEach(u -> System.out.println(u.getNome()));
-
-'''
